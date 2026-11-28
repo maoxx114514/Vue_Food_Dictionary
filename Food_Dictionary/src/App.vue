@@ -1,9 +1,9 @@
 <script setup>
-import JB from './components/Test_sxj.vue'
+/* 应用根组件：只负责挂载首页。
+   静态版的那一整套页面现在都在 components/Test_sxj.vue 里。 */
+import FoodDictionary from './components/Index.vue'
 </script>
 
-
 <template>
-  <JB></JB>
-  <h1>hello world</h1>
+    <FoodDictionary />
 </template>
